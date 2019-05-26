@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹窗面板</title>
+
+    <style>
+        body {
+            min-width: 600px;
+            min-height: 400px;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card-columns">
+        <div class="card">
+            <span class="badge badge-success">验证环境</span>
+            <div class="card-body">
+                <p class="card-text">将验证环境的cookie注入到本地环境上，用于实现跨域访问</p>
+                <button id="cookieInjectionForValidationEnvBtn" type="button" class="btn btn-success">注入cookie</button>
+            </div>
+        </div>
+        <div class="card">
+            <span class="badge badge-success">测试环境</span>
+            <div class="card-body">
+                <p class="card-text">将测试环境的cookie注入到本地环境上，用于实现跨域访问</p>
+                <button id="cookieInjectionForTestEnvBtn" type="button" class="btn btn-success">注入cookie</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
